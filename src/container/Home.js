@@ -7,6 +7,8 @@ export const Home = () => {
     const rawdata = e.target.rawdata.value;
     const from = e.target.from.value;
     const to = e.target.to.value;
+    translate.from = from;
+    translate.to = to;
     const data = await translate(rawdata, to);
     setTranslateData(data);
 
