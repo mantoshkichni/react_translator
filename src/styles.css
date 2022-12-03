@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  background-color: blue;
+  padding: 5%;
+  box-shadow: 10px 10px 7px;
+  width: 70vw;
+  border-radius: 20px;
+}
+
+select {
+  margin: 0px auto;
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: rgb(39, 201, 193);
+
+  font-weight: 999;
+}
+select:hover {
+  color: black;
+}
+.textarea {
+  margin: 0px auto;
+  color: green;
+  font-size: 20px;
+}
+body {
+  background-color: rgb(84, 84, 172);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+  text-transform: uppercase;
+  color: black;
+  font-weight: 999;
+}
+button:hover {
+  box-shadow: 5px 5px 20px;
+  transform: scale(1.01);
+}
+.mainArea {
+  margin: 10% auto;
+  transition: all 1300ms ease-in-out;
+}
